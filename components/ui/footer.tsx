@@ -11,9 +11,9 @@ export default function Footer() {
             <Logo />
           </div>
           {/* Copyright text */}
-          <p className="text-sm text-indigo-200/65">
-            © Kaysics.com
-          </p>
+          <p className="text-sm text-indigo-200/65">© Kaysics.com</p>
+          {/* Address */}
+          <p className="text-sm text-indigo-200/65">Venkatala, Bengaluru, Karnataka 560064</p>
         </div>
       </div>
     </footer>
