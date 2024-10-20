@@ -24,10 +24,10 @@ export default function HeroHome() {
                 <div data-aos="fade-up" data-aos-delay={400}>
                   <a
                     className="btn group mb-4 w-full bg-gradient-to-t from-[#1E3A8A] to-[#007BFF] bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                    href="mailto:contact@kaysics.com"
+                    href="mailto:contact@kaysics.com?subject={name}%20from%20{company}&body=Hi,%20I'm%20interested%20in%20your%20offerings.%0A%0A{briefly%20describe%20your%20requirements}%0A%0A{your%20phone%20number}%0A%0A{how%20did%20you%20hear%20about%20us?}"
                   >
                     <span className="relative inline-flex items-center">
-                      Schedule a demo
+                      Contact Us
                       <span className="ml-1 tracking-normal text-white/50 transition-transform group-hover:translate-x-0.5">
                         -&gt;
                       </span>
